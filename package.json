@@ -16,13 +16,19 @@
   "engines": {
     "node": "^16.14"
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@vitejs/plugin-react": "^2.1.0",
     "electron": "^21.1.0",
     "electron-builder": "^23.3.3",
+    "eslint": "^8.25.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.0",
+    "eslint-plugin-react": "^7.31.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.55.0",
@@ -34,5 +40,8 @@
     "env": {
       "VITE_DEV_SERVER_URL": "http://127.0.0.1:7777"
     }
+  },
+  "dependencies": {
+    "react-router-dom": "^6.4.2"
   }
 }
